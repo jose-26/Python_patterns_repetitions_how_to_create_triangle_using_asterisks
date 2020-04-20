@@ -1,0 +1,22 @@
+# Truzz Blogg: Creating patterns repetitions using Python
+# Youtube link: https://youtu.be/BkgrBVWNQM4
+
+# Method 1 - Creating a simple triangle:
+
+num = 10
+
+for i in range(num):
+  # print(i)
+  print(' ' * (num - i - 1) + "*" * (2 * i + 1))
+  
+  
+  
+# Method 2 - Creating a Christmas tree:
+num = 10
+
+for i in range(num):
+  # print(i)
+  print(' ' * (num - i - 1) + "*" * (2 * i + 1))
+
+for n in range(int(num/2)):
+  print(' ' * int(num - num/4) + '*' * int(num/2))
